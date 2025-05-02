@@ -16,12 +16,13 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import ForgotPassword from './pages/ForgotPassword';
+import PaymentPage from './pages/PaymentPage';
+import OrderSuccess from './pages/OrderSuccess';
 import './App.css';
 
 function App() {
-  const [cart, setCart] = useState([]); //Shared cart state
+  const [cart, setCart] = useState([]);
 
-  // Load cart from localStorage on app start
   useEffect(() => {
     const savedCart = JSON.parse(localStorage.getItem('cart'));
     if (savedCart) {
@@ -29,7 +30,6 @@ function App() {
     }
   }, []);
 
-  // Save cart to localStorage on change
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(cart));
   }, [cart]);
@@ -42,6 +42,8 @@ function App() {
         <Route path="/products" element={<Products cart={cart} setCart={setCart} />} />
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
         <Route path="/checkout" element={<Checkout cart={cart} />} />
+        <Route path="/payment" element={<PaymentPage />} />
+        <Route path="/order-success" element={<OrderSuccess />} />
         <Route path="/orderform" element={<OrderForm cart={cart} />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />

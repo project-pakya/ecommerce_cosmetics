@@ -1,43 +1,109 @@
-// src/data/products.js
-
 const productData = [
-    {
-      id: 1,
-      name: 'Organic Face Cream',
-      price: 1299,
-      image: '/assets/images/organic-face-cream.jpg', 
-    },
-    {
-      id: 2,
-      name: 'Organic Face Wash',
-      price: 699,
-      image: '/assets/images/organic-face-wash.jpg',
-    },
-    {
-      id: 3,
-      name: 'Herbal Shampoo',
-      price: 1499,
-      image: '/assets/images/herbal-shampoo.jpg',
-    },
-    {
-      id: 4,
-      name: 'Waterproof Matte Lipstick',
-      price: 799,
-      image: '/assets/images/matte-lipstick.jpg',
-    },
-    {
-      id: 5,
-      name: 'Aloe Vera Gel',
-      price: 499,
-      image: '/assets/images/aloe-vera-gel.jpg',
-    },
-    {
-      id: 6,
-      name: 'Organic Facial Mask',
-      price: 999,
-      image: '/assets/images/organic-facial-mask.jpg',
-    },
-  ];
-  
-  export default productData;
-  
+  {
+    id: 1,
+    name: 'Organic Face Cream',
+    price: 1299,
+    category: 'Skincare',
+    image: '/assets/images/organic-face-cream.jpg',
+  },
+  {
+    id: 2,
+    name: 'Organic Face Wash',
+    price: 699,
+    category: 'Skincare',
+    image: '/assets/images/organic-face-wash.jpg',
+  },
+  {
+    id: 3,
+    name: 'Herbal Shampoo',
+    price: 1499,
+    category: 'Haircare',
+    image: '/assets/images/herbal-shampoo.jpg',
+  },
+  {
+    id: 4,
+    name: 'Waterproof Matte Lipstick',
+    price: 799,
+    category: 'Makeup',
+    image: '/assets/images/matte-lipstick.jpg',
+  },
+  {
+    id: 5,
+    name: 'Aloe Vera Gel',
+    price: 499,
+    category: 'Skincare',
+    image: '/assets/images/aloe-vera-gel.jpg',
+  },
+  {
+    id: 6,
+    name: 'Organic Facial Mask',
+    price: 999,
+    category: 'Skincare',
+    image: '/assets/images/organic-facial-mask.jpg',
+  },
+  {
+    id: 7,
+    name: 'Hair renewal Lotion',
+    price: 349,
+    category: 'Haircare',
+    image: '/assets/images/renewal-lotion.jpg',
+  },
+  {
+    id: 8,
+    name: 'Herbal Conditioner',
+    price: 1099,
+    category: 'Haircare',
+    image: '/assets/images/herbal-conditioner.jpg',
+  },
+  {
+    id: 9,
+    name: 'BB Cream with SPF',
+    price: 899,
+    category: 'Makeup',
+    image: '/assets/images/bb-cream.jpg',
+  },
+  {
+    id: 10,
+    name: 'Nude Lip Balm',
+    price: 299,
+    category: 'Makeup',
+    image: '/assets/images/nude-lip-balm.jpg',
+  },
+  {
+    id: 11,
+    name: 'Organic Anti Aging Serum',
+    price: 599,
+    category: 'Skincare',
+    image: '/assets/images/anti-aging-serum.jpg',
+  },
+  {
+    id: 12,
+    name: 'Argan Hair Serum',
+    price: 1299,
+    category: 'Haircare',
+    image: '/assets/images/hair-serum.jpg',
+  },
+  {
+    id: 13,
+    name: 'Foundation',
+    price: 899,
+    category: 'Makeup',
+    image: '/assets/images/foundation.jpg',
+  },
+  {
+    id: 14,
+    name: 'hydrating lotion',
+    price: 449,
+    category: 'Skincare',
+    image: '/assets/images/lotion.jpg',
+  },
+  {
+    id: 15,
+    name: 'Nourishing cream',
+    price: 999,
+    category: 'Skincare',
+    image: '/assets/images/nourishing-cream.jpg',
+  },
+];
+
+export default productData;
